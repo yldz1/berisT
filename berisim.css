@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #D6EFD8;
+
+}
+
+.body {
+    font: 14px/28px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.body {
+    font: 14px/28px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.logo img {
+
+    margin-right: 800px;
+    height: 70px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+.menu {
+    float: left;
+    display: flex;
+
+
+}
+
+.menu1 {
+    padding: 27px 17px;
+    display: flex;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.menu1:hover {
+    background-color: #1A5319;
+}
+
+.anagorsel {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("ana\ ana görsel.jpg");
+    background-size: cover;
+    /*aradığım tam ekrana sığdırma kodu*/
+
+
+}
+
+.anagorsel img {
+    max-height: 100%;
+    width: auto;
+    object-fit: cover;
+    margin-left: 0;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.genel {
+    display: contents;
+
+}
+
+.beris {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    display: inline-block;
+    display: flex;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #EEF7FF;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.galery-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.galery1 img,
+.galery2 img,
+.galery3 img {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+}
+
+.galery1 img:hover,
+.galery2 img:hover,
+.galery3 img:hover {
+
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+
+}
+
+.beris1 {
+    text-align: center;
+    background-color: #B5CFB7;
+    margin-top: 20px;
+    border-top-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-right-style: inset;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 3px #d6eee5;
+}
+
+.dokuma1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.dokuma img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 35%;
+
+
+
+}
+
+.dokuma2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.dokuma:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+
+
+.orme img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    margin-left: 35%;
+
+
+}
+
+.orme1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.orme:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.orme2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.tasarım1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tasarım img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.tasarım2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tasarım:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.contact {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #80AF81
+}
+
+.contact1 {
+    margin-bottom: 15px;
+    background-color: #80AF81;
+}
+
+.form {
+    background-color: #80AF81;
+    border: 1px #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+.isim {
+    background-color: #80AF81;
+}
+
+.konu {
+    background-color: #80AF81;
+}
+
+.mesaj {
+    background-color: #80AF81;
+}
+
+.gönder {
+    background-color: #DEF9C4;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-bottom: 40px;
+    border-top: 40px;
+    cursor: pointer;
+
+
+}
+
+.gönder:hover {
+    background-color: #508D4E;
+
+}
+
+.adres {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.WhatsApp-button {
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    font-size: 23px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
